@@ -1,8 +1,8 @@
 package problems;
 import java.util.*;
-public class problemsonloop {
+public class problemsOnLoop {
     public static void main(String[] args) {
-        
+        printFirstTenWholeNumbers();
     }
 
     public static void printFirstTenWholeNumbers() {
@@ -14,7 +14,7 @@ public class problemsonloop {
     public static void multiplicationTable() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number to print multiplication table of: ");
-        int num = Integer.valueOf(scan.nextLine());
+        int num = Integer.parseInt(scan.nextLine());
         for (int i = 1; i <= 10; i++) {
             System.out.println(num * i);
         }
@@ -27,12 +27,12 @@ public class problemsonloop {
     public static void factorial() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number to calculate factorial of: ");
-        int num = Integer.valueOf(scan.nextLine());
+        int num = Integer.parseInt(scan.nextLine());
         int result = 1;
         for (int i = 1; i <= num; i++) {
             result = result * i;
         }
-        System.out.println("Facorial of " + num + " is " + result);
+        System.out.println("Factorial of " + num + " is " + result);
     }
 
     public static void sumAndAvgOfNaturalNumbers() {
