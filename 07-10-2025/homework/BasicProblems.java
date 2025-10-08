@@ -8,7 +8,6 @@ public class BasicProblems {
         areaOfRectangle();
         celciusToFahrenheit();
         sumOfDigits();
-
     }
 
     public static void welcome() {
