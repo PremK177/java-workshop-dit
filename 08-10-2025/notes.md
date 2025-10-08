@@ -4,7 +4,7 @@ Syntax of array: `data_type arr_name[size];`
 
 [] - subscript operator
 
-Second way to initialize array: `data_type arr_name[size] = {value1, value2, value3, ...};`
+Second way to initialize array: `data_type arr_nam[java-workshop-dit.iml](../java-workshop-dit.iml)e[size] = {value1, value2, value3, ...};`
 
 Advantages of array:
 1. ease of traversing (Interview question IQ100)
@@ -26,3 +26,10 @@ disadvantages of array
 Rules for solving any question of array
 1. when solving array question, use one for loop to read the elements of an array
 2. use one more for loop to print that required outcome elements
+
+Q. Write a program to print the perimeter of rectangle
+Q. write a program to check whether a number is divisible by 117 & 217
+Q. print even numbers from 5017 to 9012
+Q. check whether a person is eligible for blood donation
+Q. check the roots are real and distinct of quadratic equation
+Q. check whether a character is vowel or consonant

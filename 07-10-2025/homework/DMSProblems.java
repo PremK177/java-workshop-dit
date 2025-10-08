@@ -3,7 +3,11 @@ import java.util.*;
 public class DMSProblems {
 
     public static void main(String[] args) {
-
+        evenOrOdd();
+        biggestOfThree();
+        leapYear();
+        vowelOrConsonant();
+        passOrFail();
     }
 
     public static void evenOrOdd() {
@@ -43,4 +47,23 @@ public class DMSProblems {
         }
     }
 
+    public static void vowelOrConsonant() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a charc: ");
+        String charc = scanner.nextLine();
+        if (charc.equals("a") || charc.equals("e") || charc.equals("i") || charc.equals("o") || charc.equals("u") || charc.equals("A") || charc.equals("E") || charc.equals("I") || charc.equals("O") || charc.equals("U")) {
+            System.out.println(charc + " is a vowel");
+        } else {
+            System.out.println(charc + " is a consonant");
+        }
+    }
+
+    public static void passOrFail() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your marks: ");
+        int marks = Integer.parseInt(scanner.nextLine());
+        if (marks >= 35) {
+            System.out.println("You passed");
+        }
+    }
 }
