@@ -34,7 +34,6 @@ Programs on dms
 8. to check the roots of quadratic equation
 9. to check the circle auxiliary or not
 
-
 Programs on looping statements 
 
 1. write a program to print the first ten whole numbers
@@ -44,8 +43,13 @@ Programs on looping statements
 5. to print the first ten odd numbers from the range of 1 lakh 13 to 7 lakh 47 thousand 313
 6. to print sum/avg of first 45 natural numbers
 
-
-Looping statements is also known as entry or exit control statement
+Looping statements is also known as an entry or exit control statement
 1. while
 2. for
 3. do while
+
+W, m, z, s
+
+The terminology like golden number, fibonacci series, attribute character, armstrong number
+
+Seriability no -18, 19, 68, 107

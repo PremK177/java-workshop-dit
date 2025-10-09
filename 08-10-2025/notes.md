@@ -4,7 +4,7 @@ Syntax of array: `data_type arr_name[size];`
 
 [] - subscript operator
 
-Second way to initialize array: `data_type arr_nam[java-workshop-dit.iml](../java-workshop-dit.iml)e[size] = {value1, value2, value3, ...};`
+Second way to initialize array: `data_type arr_nam[size] = {value1, value2, value3, ...};`
 
 Advantages of array:
 1. ease of traversing (Interview question IQ100)
@@ -17,7 +17,7 @@ Advantages of array:
 - Indexing: is a method to access any particular (target) element from the array
 - Position: is a method to access any particular element from the array
 
-How to access any element through position method
+How to access any element through the position method
 - position is always start from 1
 
 disadvantages of array
