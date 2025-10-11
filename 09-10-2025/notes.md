@@ -36,7 +36,7 @@ Inheritance: is the process of transmitting the properties and behavior from par
 Types of inheritance:
 1. Single inheritance: one parent class and one child class.
 2. Multiple inheritance: one parent class is transmitted all the properties and behavior to its multiple child classes
-3. Multi-level inheritance: is defined as the properites and behavior of one parent class to the child class, that child
+3. Multi-level inheritance: is defined as the properties and behavior of one parent class to the child class, that child
 class is inherited to a further child class
 4. Hierarchical inheritance: the properties and behavior of multiple parent/base classes inherit/transmit to its single
 child class
